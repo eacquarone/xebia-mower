@@ -2,6 +2,7 @@ from unittest import TestCase
 from utils.metrics import Metrics
 import numpy as np
 
+
 class TestMetrics(TestCase):
     def test_rmsle(self):
         rmsle = Metrics().rmsle

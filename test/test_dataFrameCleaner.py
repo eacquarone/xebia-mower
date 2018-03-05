@@ -3,6 +3,7 @@ from utils.clean_dataframe import DataFrameCleaner
 import pandas as pd
 import pandas.testing as pdt
 
+
 class TestDataFrameCleaner(TestCase):
     def test_clean_warranty(self):
         cleaner = DataFrameCleaner()

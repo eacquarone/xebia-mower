@@ -6,7 +6,7 @@ class DataFrameCleaner(object):
         if year == "1":
             return "1 an"
         elif year in ["2", "3"]:
-            return "%s ans"%(year)
+            return "%s ans" % year
         else:
             raise ValueError("This value is not recognized")
 
